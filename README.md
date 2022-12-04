@@ -114,13 +114,27 @@ Since our system already had a GUI, we made improvements to the existing GUI. We
 ## Individual Assignment
 ### API 1 - Paypal API
 I implemented Paypal's API to allow for people to donate to the app creators (Us). The API is managed by the developer dashboard on paypal, and my current API key is just hard coded into the activity. The option to donate is added to every task via the three dot menu beside the task. If clicked, you will be taken to a new screen with a spot for the amount (USD $) you wish to donate, and a button to proceed to the next screen. Then the login or payment method is handled by Paypal's API. Once finished you will be taken to a order successful screen! Since this is using PayPal's sandbox environment, no real money is being moved or changed. For testing here is a fake credit card linked to a fake customer in the dashboard:
+Credit Card #: 4214020287035846
+
+Expiration Date: 11/27
+
+CVV: 111
+
+<img src = "https://user-images.githubusercontent.com/52676747/205475597-04178f34-f96a-447a-ac08-5084a538aed8.png" alt="paypal1" width="150"/><img src = "https://user-images.githubusercontent.com/52676747/205475606-782933ec-3abb-4e53-8453-2bc1fa9de5a4.png" alt="paypal2" width="150"/>
+
 
 Credit Card #: 4214020287035846
+
 Expiration Date: 11/27
+
 CVV: 111
 
 ### API 2 - Google Translate API
 Google translate was added to allow a user to translate their task into any avaiable language from google's library. For credentials & connectivity, I recieved a json file from Google that contains my api key and other information required to use the API. To translate a task, simply create a task, click the three dot menu next to it, and select translate. A large scroll view with all possible options to translate to appear. Select the option and the task name with be translated to that language. This allows the user to customize their Todos to feel more personal. Google API auto detects the language in the task, and translates it accordingly. If for some reason an error happens, the task will be translated to default english. 
+
+<img src="https://user-images.githubusercontent.com/52676747/205475679-3b3705cf-fddc-4ca6-9119-44be1b408147.png" alt="trans1" width="150"/><img src="https://user-images.githubusercontent.com/52676747/205475683-7e73aa50-97c6-4ebd-a4c0-eddca715a3ff.png" alt="trans3" width="150"/><img src="https://user-images.githubusercontent.com/52676747/205475681-3a4f15b6-c172-4c44-be9e-567c0b7cb333.png" alt="trans2" width="150"/>
+
+
 
 ## Compiling our code
 There are two ways to compile our code:
