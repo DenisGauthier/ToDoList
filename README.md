@@ -139,5 +139,5 @@ Google translate was added to allow a user to translate their task into any avai
 ## Compiling our code
 There are two ways to compile our code:
 1) clone the project in Android studio and run it on an emulator in the app
-2) use the [apk file](https://github.com/COSC310-Team12/ToDoList/releases/download/v0.2.0/ToDoList-v0.2.0.apk) from our latest [release](https://github.com/COSC310-Team12/ToDoList/releases) to install the app on an Android phone
+2) use the [apk file]https://github.com/DenisGauthier/ToDoList/releases/download/0.31/TodoAPI.apk) from our latest [release](https://github.com/DenisGauthier/ToDoList/releases/tag/0.31) to install the app on an Android phone
 
