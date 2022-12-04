@@ -111,6 +111,17 @@ Since our system already had a GUI, we made improvements to the existing GUI. We
 - Users can use the gray button on the right to quickly navigate between the top and bottom of the list. This feature improves the efficiency of use for our app. Users can now easily navigate to their recent tasks at the bottom and back up to the search bar and the filter menu. This uses a floating button from the google android material library in order to keep the button in the same spot on the screen regardless of how far the user has scrolled.
 <img src="https://user-images.githubusercontent.com/77038122/201798552-ebeaf824-acf6-4fa1-9600-a84d1960c1c8.png" alt="viewCompleted" width="100"/>
 
+## Individual Assignment
+### API 1 - Paypal API
+I implemented Paypal's API to allow for people to donate to the app creators (Us). The API is managed by the developer dashboard on paypal, and my current API key is just hard coded into the activity. The option to donate is added to every task via the three dot menu beside the task. If clicked, you will be taken to a new screen with a spot for the amount (USD $) you wish to donate, and a button to proceed to the next screen. Then the login or payment method is handled by Paypal's API. Once finished you will be taken to a order successful screen! Since this is using PayPal's sandbox environment, no real money is being moved or changed. For testing here is a fake credit card linked to a fake customer in the dashboard:
+
+Credit Card #: 4214020287035846
+Expiration Date: 11/27
+CVV: 111
+
+### API 2 - Google Translate API
+Google translate was added to allow a user to translate their task into any avaiable language from google's library. For credentials & connectivity, I recieved a json file from Google that contains my api key and other information required to use the API. To translate a task, simply create a task, click the three dot menu next to it, and select translate. A large scroll view with all possible options to translate to appear. Select the option and the task name with be translated to that language. This allows the user to customize their Todos to feel more personal. Google API auto detects the language in the task, and translates it accordingly. If for some reason an error happens, the task will be translated to default english. 
+
 ## Compiling our code
 There are two ways to compile our code:
 1) clone the project in Android studio and run it on an emulator in the app
